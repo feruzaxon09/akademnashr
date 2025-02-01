@@ -1,4 +1,5 @@
 .list-none {
+
   list-style: none;
 }
 .site-header {
@@ -14,6 +15,17 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.main-link {
+  background-color: #ff7500;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  line-height: 0.5px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .hero-section {
   background-color:#252420;
 }
@@ -76,8 +88,14 @@
 }
 
 .sale-content {
+  color: #fff;
   width: 440px;
 
+}
+
+.sale-image {
+  width: 440px;
+  height: 440px;
 }
 
 .sale-title {
@@ -108,7 +126,7 @@ letter-spacing: 0.5px;
 .footer-link {
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
-  color: 252420;
-  text-decoration: none;
+  line-height: 18.75px;
+  color: #252420;
+  text-decoration: none ;
 }
